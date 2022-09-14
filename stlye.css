@@ -1,0 +1,78 @@
+h1 {
+  font-weight: bold;
+  text-align: center;
+}
+form {
+  margin: auto;
+  width: 50%;
+}
+input {
+  margin: 10px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+}
+button {
+  background-color: blue;
+  color: white;
+  border: none;
+}
+span {
+  color: blue;
+}
+
+.first_last {
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 20px;
+}
+
+.confirm {
+  margin-top: 5px;
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.checkbox-btn {
+  white-space: nowrap;
+  padding-top: 10px;
+}
+
+.checkbox {
+  display: inline-block;
+  width: 20%;
+}
+
+.btn-section {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 50 auto;
+  grid-gap: 20px;
+}
+.btn {
+  padding: 20px;
+  float: left;
+  width: 100%;
+  margin: 5px 10px;
+  border-radius: 10px;
+}
+#register-btn {
+  color: white;
+  background-color: blue;
+  font-size: 19px;
+}
+#signin-btn {
+  background-color: green;
+  color: white;
+  font-size: 20px;
+}
+@media screen and (min-width: 400px) {
+  body {
+    width: 100vw;
+  }
+}
