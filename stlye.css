@@ -7,6 +7,7 @@ form {
   width: 50%;
 }
 input {
+  border-radius: 9px;
   margin: 10px;
   padding: 5px;
   width: 100%;
@@ -29,7 +30,7 @@ span {
 .first_last {
   display: grid;
   grid-auto-flow: column;
-  grid-column-gap: 20px;
+  grid-column-gap: 25px;
 }
 
 .confirm {
