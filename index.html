@@ -5,9 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="./stlye.css" />
+    <link href="./stlye.css" rel="stylesheet" />
   </head>
   <body>
-    <script src="./index.js"></script>
+    <div>
+      <h1>Sign Up</h1>
+      <form>
+        <div class="input-row">
+          <input type="Text" placeholder="First Name" />
+          <input type="Text" placeholder="Last name" />
+        </div>
+        <div>
+          <input type="Text" placeholder="Mobile No" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <div class="input-row">
+          <input type="password" placeholder="Password" />
+          <input type="password" placeholder="Confirm Password" />
+        </div>
+        <div class="confirm-row">
+          <div class="checkbox-btn">
+            <input class="checkbox" type="checkbox" />
+            <label>I agree</label>
+          </div>
+          <p>
+            By clicking <button>Register</button>, you agree to the
+            <span>Terms and Conditions</span>
+            set out by this site, includin our Cookie Use
+          </p>
+        </div>
+
+        <div class="btn-section">
+          <button class="btns" id="register-btn">Register</button>
+          <button class="btns" id="signin-btn">Sign In</button>
+        </div>
+      </form>
+    </div>
+    <!--   <script src="./index.js"></script> -->
   </body>
 </html>
