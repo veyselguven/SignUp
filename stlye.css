@@ -1,5 +1,16 @@
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
 h1 {
-  font-weight: bold;
+  font-weight: normal;
   text-align: center;
 }
 form {
@@ -55,7 +66,7 @@ span {
   grid-template-columns: 50 auto;
   grid-gap: 20px;
 }
-.btn {
+.confirmation_btns {
   padding: 20px;
   float: left;
   width: 100%;
@@ -72,8 +83,21 @@ span {
   color: white;
   font-size: 20px;
 }
-@media screen and (min-width: 400px) {
+@media (max-width: 768px) {
   body {
     width: 100vw;
+  }
+
+  .btn-section {
+    grid-gap: 60px;
+  }
+  input {
+    margin-bottom: 30px;
+  }
+  #register-btn {
+    background-color: aqua;
+  }
+  #signin-btn {
+    background-color: blueviolet;
   }
 }
