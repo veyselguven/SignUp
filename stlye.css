@@ -14,13 +14,18 @@ h1 {
   text-align: center;
 }
 form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   margin: auto;
   width: 50%;
 }
 input {
   border-radius: 9px;
-  margin: 10px;
+  /* margin: 10px; */
+  height: 35px;
   padding: 5px;
+  margin-bottom: 15px;
   width: 100%;
   border: 1px solid #ccc;
 }
@@ -39,12 +44,16 @@ span {
 }
 
 .first_last {
-  display: grid;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 10px;
+  /* gap: 10px; */
+  /* display: grid;
   grid-auto-flow: column;
-  grid-column-gap: 25px;
+  grid-column-gap: 25px; */
 }
-
-.confirm {
+w .confirm {
   margin-top: 5px;
   display: grid;
   grid-auto-flow: column;
